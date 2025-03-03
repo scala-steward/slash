@@ -124,19 +124,19 @@
 
 </span><span class="keyword">val</span><span> </span><span class="identifier">v_rand</span><span> = </span><span class="type-name">Vec</span><span>.</span><span class="identifier">random</span><span>[</span><span class="number-literal">5</span><span>]
 </span><span class="comment">// v_rand: Vec[5] = Array(
-//   -0.14836225560528882,
-//   -0.1480126110248109,
-//   -0.2148356608224542,
-//   -0.9565263588473438,
-//   -0.8550168546477462
+//   -0.4248915968698095,
+//   -0.6435523072782614,
+//   -0.20533702880704807,
+//   -0.24344866870892823,
+//   -0.9797194447422679
 // )
 </span><span class="keyword">val</span><span> </span><span class="identifier">v_rand_max_min</span><span> = </span><span class="type-name">Vec</span><span>.</span><span class="identifier">random</span><span>[</span><span class="number-literal">5</span><span>](</span><span class="number-literal">0.5</span><span>, </span><span class="number-literal">2.0</span><span>)
 </span><span class="comment">// v_rand_max_min: Vec[5] = Array(
-//   1.2639691869739949,
-//   1.118313319986632,
-//   1.251935111695063,
-//   1.9874310192668418,
-//   1.8675584480643206
+//   0.8548876395635223,
+//   0.9221701553784737,
+//   0.7132223830026269,
+//   0.9136067686089486,
+//   1.823544464454526
 // )</span></code></pre>
         <p>And do some stuff</p>
         <pre><code class="nohighlight"><span class="identifier">v</span><span> + </span><span class="identifier">v_fill</span><span>
@@ -158,10 +158,10 @@
 </span><span class="comment">// res6: Double = 3.0
 </span><span>
 </span><span class="identifier">v</span><span>.</span><span class="identifier">corr</span><span>(</span><span class="identifier">v_rand</span><span>)
-</span><span class="comment">// res7: Double = -0.8667939448887674
+</span><span class="comment">// res7: Double = -0.3508413588659372
 </span><span>
 </span><span class="identifier">v_rand</span><span>.</span><span class="identifier">elementRanks</span><span>
-</span><span class="comment">// res8: Vec[5] = Array(4.0, 5.0, 3.0, 1.0, 2.0)</span></code></pre>
+</span><span class="comment">// res8: Vec[5] = Array(3.0, 2.0, 5.0, 4.0, 1.0)</span></code></pre>
 
         
 <hr class="footer-rule"/>
